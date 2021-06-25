@@ -35,7 +35,7 @@ pipeline {
             sh "whoami"
             sh "pwd"
             sh "ls -la"
-            sh "mvn clean install -X"
+            sh "mvn clean install sonar:sonar"
         }
     }
     }
